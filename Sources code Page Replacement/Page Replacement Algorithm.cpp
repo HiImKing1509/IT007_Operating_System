@@ -61,7 +61,6 @@ void FIFO(int page_num, vector<int>& p, int frame)
     // Chứa các trang đang nằm trong Frame
     vector<int>FRAME;
 
-
     // Ma trận kết quả
     vector<vector<string>> matrix_result(frame, vector<string>(page_num, " "));
     int prior = 0;
